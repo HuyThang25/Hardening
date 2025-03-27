@@ -1,4 +1,3 @@
-Port 372
 Protocol 2
 HostKey /etc/ssh/ssh_host_rsa_key
 HostKey /etc/ssh/ssh_host_dsa_key
@@ -31,8 +30,6 @@ PrintLastLog yes
 TCPKeepAlive no
 AcceptEnv LANG LC_*
 Subsystem sftp /usr/lib/openssh/sftp-server
-UsePAM yes
 UseDNS no
 MaxStartups 2
 Banner /etc/motd
-AllowUsers USERNAME
